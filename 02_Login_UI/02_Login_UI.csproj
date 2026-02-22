@@ -83,5 +83,8 @@
   <ItemGroup>
     <None Include="Resources\resized_400x267 %281%29.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\登录界面.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
