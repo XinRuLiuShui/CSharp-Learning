@@ -3,13 +3,26 @@
 表结构
 ![](img/数据表.png)
 
+```
+_07_DataBase_CRUD
+│
+├── Program.cs          （UI层）
+├── Models
+│     └── Employee.cs   （实体类）
+├── DAL
+│     ├── SqlHelper.cs  （数据库封装类）
+│     └── EmployeeDAL.cs
+├── BLL
+│     └── EmployeeBLL.cs
+```
+
 1. `SelectEmployees`查询结果
 
 > 1 张三 8000.00
-2 李四 12000.00
-3 王五 7000.00
-4 赵六 15000.00
-5 钱七 20000.00
+> 2 李四 12000.00
+> 3 王五 7000.00
+> 4 赵六 15000.00
+> 5 钱七 20000.00
 
 2.`InsertEmployee`查询结果
 
